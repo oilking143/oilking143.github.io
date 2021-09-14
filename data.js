@@ -1,0 +1,38 @@
+const entries = [
+  {
+    id: 1,
+    title: 'Spaghetti Bolognese',
+    desc: 'Ein Nudelgericht mit Hackfleischsoße',
+    votes: 1,
+    downVotes: 1,
+    author: 'Italien',
+    image: 'https://via.placeholder.com/64',
+  },
+  {
+    id: 2,
+    title: 'Schnitzel',
+    desc: 'Schnitzel aus Kalbfleisch',
+    votes: 2,
+    downVotes: 1,
+    author: 'Deutschland',
+    image: 'https://via.placeholder.com/64',
+  },
+  {
+    id: 3,
+    title: 'Peking Ente',
+    desc: 'knusprig frisch zubereitet',
+    votes: 3,
+    downVotes: 1,
+    author: 'China',
+    image: 'https://via.placeholder.com/64',
+  },
+  {
+    id: 4,
+    title: 'Gulasch',
+    desc: 'Ein traditionelles Ragout',
+    votes: 4,
+    downVotes: 1,
+    author: 'Ungarn',
+    image: 'https://via.placeholder.com/64',
+  },
+];
