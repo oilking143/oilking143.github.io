@@ -60,7 +60,28 @@
       column: data[0].length,
       insertType: 'bottom'
     };
-    $.get('https://script.google.com/macros/s/AKfycbw8dAPEjvTiwxgzcyGrn0w3DYCuB7O4gsWjSdHZozlu5xsHONtm/exec', parameter);
+    if(name.length==0)
+    {
+      alert('請輸入姓名')
+    }
+    else if(mobile.length==0)
+    {
+      alert('請輸行動電話')
+    }
+    else if(address.length==0)
+    {
+      alert('請輸入地址')
+    }
+    else if(email.length==0)
+    {
+      alert('請輸入電子信箱')
+    }
+    else
+    {
+      $.get('https://script.google.com/macros/s/AKfycbw8dAPEjvTiwxgzcyGrn0w3DYCuB7O4gsWjSdHZozlu5xsHONtm/exec', parameter);
+    }
+
+   
        }
         </script>
 
