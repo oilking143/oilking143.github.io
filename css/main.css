@@ -8,3 +8,17 @@
 .clickme{
     cursor: pointer;
 }
+
+.mui-input-row{
+
+    line-height: 40px;
+    
+    height: 40px;
+    
+}
+
+body { 
+    background-image: url("img/bgpng"); 
+    background-position: center center; 
+    background-size: 100% 100%; 
+} 
