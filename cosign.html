@@ -35,7 +35,7 @@
         <label for="fname">電子信箱:</label>
         <input type="text" id="femail"><br><br>
     </div>
-
+    
     <div class="container">
         <div class="row">
           <div class="col text-center" style="height:20px;margin:30px 10px 15px 20px;">
@@ -78,11 +78,14 @@
     }
     else
     {
+      alert(data.toString())
       $.get('https://script.google.com/macros/s/AKfycbw8dAPEjvTiwxgzcyGrn0w3DYCuB7O4gsWjSdHZozlu5xsHONtm/exec', parameter);
+      location.replace("https://www.facebook.com/1064399760279285/posts/4490095747709652/?d=n")
     }
 
    
        }
+
         </script>
 
 </body>
